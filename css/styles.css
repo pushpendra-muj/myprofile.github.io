@@ -767,7 +767,22 @@ section:first-of-type { border-top: none; }
   color: var(--accent);
   font-weight: 700;
   font-size: 0.82rem;
+  white-space: nowrap;
 }
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.pub-link svg { width: 14px; height: 14px; }
+
+.pub-link:hover { color: var(--accent-strong); text-decoration: underline; }
 
 .subhead {
   font-size: 1.05rem;
